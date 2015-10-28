@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#
+# Download the NIC design
+#
+
+# Get the mapping of nf2c0 -- result placed in $IFACE
+IFACE=nf2c0
+
+# Download the bitfile
+nf2_download -i $IFACE $NF2_ROOT/bitfiles/crypto_nic.bit
+
+# Wait, so that next test can get nf2c0
+sleep 1
