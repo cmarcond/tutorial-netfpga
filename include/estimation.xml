@@ -28,27 +28,27 @@
 	  	</nf:register>
 		<nf:register>
 			<nf:name>timestamp4</nf:name>
-			<nf:description>Third Timestamp</nf:description>
+			<nf:description>Fourth Timestamp</nf:description>
 			<nf:type>generic_hardware32</nf:type>
 	  	</nf:register>
 		<nf:register>
 			<nf:name>timestamp5</nf:name>
-			<nf:description>Third Timestamp</nf:description>
+			<nf:description>Fifth Timestamp</nf:description>
 			<nf:type>generic_hardware32</nf:type>
 	  	</nf:register>
 		<nf:register>
 			<nf:name>timestamp6</nf:name>
-			<nf:description>Third Timestamp</nf:description>
+			<nf:description>Sixth Timestamp</nf:description>
 			<nf:type>generic_hardware32</nf:type>
 	  	</nf:register>
 		<nf:register>
 			<nf:name>timestamp7</nf:name>
-			<nf:description>Third Timestamp</nf:description>
+			<nf:description>Seventh Timestamp</nf:description>
 			<nf:type>generic_hardware32</nf:type>
 	  	</nf:register>
 		<nf:register>
 			<nf:name>timestamp8</nf:name>
-			<nf:description>Third Timestamp</nf:description>
+			<nf:description>Eighth Timestamp</nf:description>
 			<nf:type>generic_hardware32</nf:type>
 	  	</nf:register>
 	</nf:registers>

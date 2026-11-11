@@ -30,7 +30,7 @@ Both are wired into `src/user_data_path.v`, next to the reference pipeline's rat
 | Path | Contents |
 |---|---|
 | `src/` | `estimation.v` and the modified `user_data_path.v` |
-| `working/` | `drop_nth_packet.v` and three iterations of `estimation.v` |
+| `working/` | `drop_nth_packet.v`, three iterations of `estimation.v` and an earlier register module (`bottleneck_reg_old.v`) |
 | `include/` | Project definition and register maps (`project.xml`, `estimation.xml`, generated `registers.v`) |
 | `lib/C`, `lib/Perl5` | Generated register definitions for software |
 | `sw/` | Host-side tools in C and Perl: read registers (`readregister.c`), control and receive the event-capture system (`monitor_ctrl.c`, `rcv_evts.c`), router GUIs, and an `iperf` traffic script |
@@ -49,5 +49,4 @@ NetFPGA base package are required; none of them is part of this repository.
 
 The project builds on the NetFPGA tutorial router, and files that carry a NetFPGA header keep their
 original terms. The `drop_nth_packet` and `estimation` modules, the register maps for them and the
-changes to the data path are the tutorial's own work. Compiled binaries in `sw/` are leftovers from
-2015 and target 32-bit Linux.
+changes to the data path are the tutorial's own work.
