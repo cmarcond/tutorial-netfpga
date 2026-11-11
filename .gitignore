@@ -1,0 +1,8 @@
+# build outputs
+*.o
+sw/monitor_ctrl
+sw/rcv_evts
+sw/readregister
+synth/*.bit
+synth/*.ngc
+*.bk

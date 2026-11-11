@@ -3,7 +3,8 @@
 //
 // Module: estimation.v
 // Project: NF2.1
-// Description: defines a module that drops the nth packet
+// Description: timestamps selected IP packets in the data path, in registers
+//              read by software, to estimate the bottleneck of a path
 // 
 ///////////////////////////////////////////////////////////////////////////////
 `timescale 1ns/1ps
